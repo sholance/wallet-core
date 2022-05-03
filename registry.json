@@ -2359,5 +2359,33 @@
       "rpc": "https://mainnet.aurora.dev/",
       "documentation": "https://doc.aurora.dev/"
     }
+  },
+  {
+    "id": "meter",
+    "name": "Meter Stable",
+    "coinId": 0,
+    "symbol": "MTR",
+    "decimals": 18,
+    "blockchain": "Ethereum",
+    "derivation": [
+      {
+        "path": "m/44'/60'/0'/0/0"
+      }
+    ],
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1Extended",
+    "explorer": {
+      "url": "https://explorer.meter.io",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "0x95ecd819d3fde4cd914ed1f5aba174f416b08d026b7ced00a93c370976a284f3",
+      "sampleAccount": "0x9340e604bd353bd2f90693188c0c829a721dec3b"
+    },
+    "info": {
+      "url": "https://meter.io",
+      "source": "https://github.com/meterio/meter-pov",
+      "rpc": "https://rpc.meter.io",
+      "documentation": "https://docs.meter.io/"
+    }
   }
 ]
